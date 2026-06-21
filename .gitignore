@@ -1,0 +1,31 @@
+# Build output (anchored to root and project dir so Libraries/ is not caught,
+# and the .obj model files head2.obj / teapot.obj stay tracked).
+/x64/
+/Win32/
+/Debug/
+/Release/
+/HairCard/x64/
+/HairCard/Win32/
+/HairCard/Debug/
+/HairCard/Release/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Compiler / linker artifacts (these only ever live under the build dirs above,
+# but listed for safety -- note *.obj is intentionally NOT ignored)
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.exe
+*.exe.recipe
+*.log
+*.tlog
+*.lastbuildstate
+*.recipe
